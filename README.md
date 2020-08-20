@@ -108,3 +108,45 @@ add into docker-compose file
 ```
 docker-compose up
 ```
+
+### docker hub
+
+https://github.com/gliderlabs/docker-alpine
+
+https://hub.docker.com/_/alpine
+
+```
+FROM node:13.12.0-alpine
+```
+
+### commands
+```
+restart: unless-stopped
+```
+
+```
+docker-compose up --build
+```
+
+
+### some commands
+
+list of containers
+```
+docker container ls -a
+```
+
+remove container
+```
+docker container rm a6c0a7d9f25a
+```
+
+list of images
+```
+docker image ls
+```
+
+remove image
+```
+docker image rm 89cff77bb67c 2b9604a36e49 bf756fb1ae65
+```
