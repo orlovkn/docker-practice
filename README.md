@@ -150,3 +150,16 @@ remove image
 ```
 docker image rm 89cff77bb67c 2b9604a36e49 bf756fb1ae65
 ```
+
+### add a connection with db
+[mongodb](https://docs.atlas.mongodb.com/getting-started/)
+
+[mongoosejs](https://mongoosejs.com/docs/)
+
+```
+npm install mongoose
+```
+
+```
+docker logs blog-docker_api_db_1
+```
